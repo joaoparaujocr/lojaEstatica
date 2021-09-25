@@ -152,9 +152,9 @@ $(document).ready(function(){
         $('#hamburguer').toggleClass('active')
     })
 
-    $(window).resize(function(){
+    /*$(window).resize(function(){
         document.location.reload(true);
-    })
+    })*/
 
     //Sistema de navegação
 
