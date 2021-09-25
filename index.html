@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <title>Home</title>
+    </head>
+
+    <body>
+        <header id="home">
+            <div class="container">
+                <div class="logo"></div>
+
+                <nav aria-label="nav-main" id="nav" class="menu-desktop">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul id="menu">
+                        <li><a go="home" href="index.html" style="color: #EB2D2D;">Home</a></li>
+                        <li><a href="venda.html">Venda</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a go="contato" href="">Contato</a></li>
+                    </ul>
+                </nav><!--menu desktop-->
+
+                <div class="clear"></div><!--limpar flutuação-->
+
+            </div><!--container-->
+        </header>
+
+        <section class="banner">
+            <div class="container">
+                <div class="text-banner">
+                    <div class="box-text">Consultoria</div><!--box text-->
+                    <div class="box-text">Compra</div><!--box text-->
+                    <div class="box-text">Venda</div><!--box text-->
+                    <div class="box-text">e-mail@hotmail.com</div><!--box text-->
+                </div><!--text-banner-->
+            </div><!--container-->
+        </section><!--banner-->
+
+        <section class="veiculos-destaque">
+            <div class="container">
+                <div class="box-line">
+                    <div class="line"></div>
+                    <h2>Veículos em destaque</h2>
+                </div><!--box-line-->
+
+                <div class="box-veiculos">
+                    <div class="img-veiculo"></div>
+                    <h2>Volkswagen Karmann-ghia</h2>
+                    <p>2.6 8v, gasolina, 2P, Manual</p>
+                    <a target="blank" href="">Mais detalhes</a>
+                </div><!--box-veiculos-->
+
+                <div class="box-veiculos">
+                    <div class="img-veiculo"></div>
+                    <h2>Volkswagen Karmann-ghia</h2>
+                    <p>2.6 8v, gasolina, 2P, Manual</p>
+                    <a target="blank" href="">Mais detalhes</a>
+                </div><!--box-veiculos-->
+
+                <div class="box-veiculos">
+                    <div class="img-veiculo"></div>
+                    <h2>Volkswagen Karmann-ghia</h2>
+                    <p>2.6 8v, gasolina, 2P, Manual</p>
+                    <a target="blank" href="">Mais detalhes</a>
+                </div><!--box-veiculos-->
+
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </section><!--veiculos-destaque-->
+
+        <section class="servicos-depoimentos">
+            <div class="box-servicos">
+                <div class="servicos">
+                    <h2>Serviços</h2>
+                    <ul>
+                        <li>Compra</li>
+                        <li>Venda</li>
+                        <li>Consultoria</li>
+                        <li>Consignação</li>
+                    </ul>
+
+                    <a href="">Saiba mais</a>
+                </div><!--servicos-->
+            </div><!--box-servicos-->
+
+            <div class="box-depoimentos">
+                <h2>Depoimentos</h2>
+                <div class="box-depoimentos-single">
+                    <p>"O Rafael é muito atencioso me buscou no aeroporto 
+                    e garantiu toda comodidade e conforto no almoço, no transfer, na visita ao veículo e durante o test-drive"</p>
+
+                    <p>Outro depoimento</p>
+                </div>
+                <div class="navegacao">
+                    <div class="arrow">
+                        <img prev src="images/arrow-left.png" alt="">
+                        <img next src="images/arrow-right.png" alt="">
+                    </div><!--arrow-->
+
+                    <div class="nome">João da Silva</div>
+                </div><!--navegacao-->
+            </div><!--depoimentos-->
+        </section><!--servicos-depoimentos-->
+
+        <section id="contato" class="contato">
+            <div class="box-line">
+                <div class="line"></div>
+                <h2>Contato</h2>
+            </div><!--box-line-->
+
+            <form action="">
+                <div class="box-input w100">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </div><!--box input-->
+
+                <div class="box-input w50">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div><!--box input-->
+
+                <div class="box-input w50">
+                    <input type="text" name="telefone" id="telefone" placeholder="Telefone">
+                </div><!--box input-->
+                
+                <div class="clear"></div>
+
+                <textarea placeholder="Mensagem"></textarea>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section><!--contato-->
+
+        <footer>
+            <nav aria-label="links">
+                <ul id="menu">
+                    <li><a go="home" href="index.html">Home</a></li>
+                    <li><a href="venda.html">Venda</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a go="contato" href="index.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <p>Todos os direitos reservados a <b>RM Veículos Especiais</b></p>
+
+            <div class="clear"></div><!--clear-->
+        </footer>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
