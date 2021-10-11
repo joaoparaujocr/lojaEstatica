@@ -152,9 +152,20 @@ $(document).ready(function(){
         $('#hamburguer').toggleClass('active')
     })
 
-    /*$(window).resize(function(){
-        document.location.reload(true);
-    })*/
+    verificarTela()
+
+    var widthActual = $(window).width();
+
+    function verificarTela(){
+        $(window).resize(function() {
+            let widthWindow = $(window).width();
+            if(widthActual != widthWindow){
+                if(widthWindow <= 600){
+                    document.location.reload(true);
+                }
+            }
+        })
+    }
 
     //Sistema de navegação
 
